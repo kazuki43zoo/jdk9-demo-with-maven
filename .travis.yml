@@ -12,3 +12,6 @@ jdk:
 matrix:
   allow_failures:
     - jdk: oraclejdk9
+
+before_install:
+  - echo $MAVEN_OPTS
