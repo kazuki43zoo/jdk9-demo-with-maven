@@ -9,7 +9,7 @@ jdk:
 
 before_install: export MAVEN_SKIP_RC=true
 
-script: ./mvnw exec:java -Dexec.mainClass=com.example.Jdk9DemoWithMavenApplication
+script: mvn exec:java -Dexec.mainClass=com.example.Jdk9DemoWithMavenApplication
 
 #matrix:
 #  allow_failures:
