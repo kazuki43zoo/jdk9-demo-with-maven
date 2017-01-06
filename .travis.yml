@@ -1,17 +1,15 @@
 language: java
 
 sudo: required
-
-# required for oraclejdk9
 dist: trusty
 
 jdk:
   - oraclejdk8
   - oraclejdk9
 
+before_install:
+  - export MAVEN_SKIP_RC=true
+
 #matrix:
 #  allow_failures:
 #    - jdk: oraclejdk9
-
-before_install:
-  - export MAVEN_SKIP_RC=true
