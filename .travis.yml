@@ -14,4 +14,4 @@ matrix:
     - jdk: oraclejdk9
 
 before_install:
-  - echo $MAVEN_OPTS
+  - export MAVEN_SKIP_RC=true
