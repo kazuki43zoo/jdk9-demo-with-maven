@@ -7,8 +7,7 @@ jdk:
   - oraclejdk8
   - oraclejdk9
 
-before_install:
-  - export MAVEN_SKIP_RC=true
+before_install: export MAVEN_SKIP_RC=true
 
 #matrix:
 #  allow_failures:
